@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600;700&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto Mono';
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+.dark-bg {
+  background-color: #25262A;
+}
+.light-bg {
+  background-color: #2D2E32;
+}
+.white {
+  color: #FFFFFF;
+}
+.gray {
+  color: #777777;
+}
+.green {
+  color: #4dba87;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.flex-full {
+  flex: 1;
+}
+.justify-space {
+  justify-content: space-between;
+}
+section {
+  padding: 5rem 5rem;
+}
+button {
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem 1rem;
+  color: #2D2E32;
+  font-size: 0.8rem;
+  font-weight: 600;
+  background-color: #4dba87;
+  cursor: pointer;
+}
+
+/* Header */
+nav {
+  padding: 1.1rem 5rem;
+}
+nav .logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+nav ul li {
+  list-style-type: none;
+  margin-left: 3rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.header {
+  justify-content: space-between;
+  padding: 1.1rem 5rem 0rem 5rem;
+}
+.header h1 {
+  margin: auto;
+  font-size: 3rem;
+  font-weight: 500;
+}
+.header p {
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.header button {
+  cursor: text;
+  margin-bottom: 1.5rem;
+}
+.header a {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* About */
+.about-card {
+  width: 90%;
+  padding: 2rem;
+  margin-top: 0.5em;
+  border-radius: 0.5rem;
+}
+.about-card h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+.about-card p {
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.about-card span {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.about-text h1 {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  font-size: 2rem;
+}
+.about-text h3 {
+  margin-bottom: 1rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+  font-style: italic;
+  text-align: justify;
+}
+.about-text p {
+  font-weight: 500;
+  font-size: 1rem;
+  text-align: justify;
+}
+.partners {
+  padding-top: 5rem;
+}
+
+/* Footer */
+footer {
+  padding: 2rem 5rem;
+}
+footer span {
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+footer ul li {
+  list-style-type: none;
+  margin-left: 1rem;
+}
+
+/* --------- Responsive Design --------- */
+@media (max-width: 768px) {
+  .flex {
+    row-gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  /* Header */
+  nav {
+    padding: 1rem 2rem;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+  }
+  nav ul, nav ul li, .active {
+    display: none;
+  }
+  .header {
+    padding: 2rem 2rem 0rem 2rem;
+  }
+  section {
+    padding: 1rem 2rem;
+  }
+  /* About */
+  .about-card {
+    width: 100%;
+  }
+  .about-card div {
+    flex-direction: row !important;
+    justify-content: space-between !important;
+  }
+  /* Footer */
+  footer ul {
+    column-gap: 1rem;
+    flex-direction: row !important;
+  }
+  footer ul li {
+    margin-left: 0;
+  }
+}
