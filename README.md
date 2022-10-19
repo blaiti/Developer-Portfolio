@@ -4,8 +4,11 @@
 
 Developer Portfolio is a web template made for developers to present themselves based on NextJS.
 
+![Developer Protfolio](https://user-images.githubusercontent.com/32510139/196652912-b6eba429-4151-47d3-8e51-03154dcc4e37.png)
+
 ## Table of Contents
 
+- [Demo](#demo)
 - [Tech Stack](#tech-stack)
 - [Quick Start](#quick-start)
 - [Run Locally](#run-locally)
@@ -13,6 +16,10 @@ Developer Portfolio is a web template made for developers to present themselves 
 - [File Structure](#file-structure)
 - [Author](#author)
 - [License](#license)
+
+## Demo
+
+[Developer Portfolio demo link](https://developer-portfolio-gules.vercel.app/)
 
 ## Tech Stack
 
@@ -94,7 +101,7 @@ Developer-Portfolio
 
 ## Author
 
-- [@blaiti](https://github.com/blaiti)
+[@blaiti](https://github.com/blaiti)
 
 ## License
 
