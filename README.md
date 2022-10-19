@@ -4,7 +4,7 @@
 
 Developer Portfolio is a web template made for developers to present themselves based on NextJS.
 
-![Developer Protfolio](https://user-images.githubusercontent.com/32510139/196652912-b6eba429-4151-47d3-8e51-03154dcc4e37.png)
+![Developer Protfolio](https://user-images.githubusercontent.com/32510139/196662875-44970df4-d748-4a76-8a5f-ec2f4f0eb0e9.png)
 
 ## Table of Contents
 
