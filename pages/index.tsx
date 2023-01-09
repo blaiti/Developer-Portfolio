@@ -12,10 +12,10 @@ const Home: NextPage = () => {
         <title>Pietro - Senior Tech Recruiter</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="author" content="Pietro Mattei" />
-        <meta name="keywords" content="ReactJS, NextJS" />
+        <meta name="keywords" content="ReactJS, NextJS, pietro mattei, pietro, mattei, recruiter, tech recruiter, technical recruiter, talent acquisition" />
         <meta
           name="description"
-          content="Senior Tech Recruiter currently at neo4j."
+          content="Pietro Mattei Senior Tech Recruiter currently at neo4j."
         />
         <meta charSet="UTF-8" />
         <meta name="theme-color" content="#2D2E32" />
