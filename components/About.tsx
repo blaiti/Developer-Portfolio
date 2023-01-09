@@ -37,11 +37,11 @@ export default function About() {
             <br />
             <br />
             In my free time, I enjoy exploring new places 🌍, staying active
-            through workouts 🏋️, and relaxing with a good cup of coffee ☕️ and some video games 🎮. I'm a social person who
+            through workouts 🏋️, and relaxing with a good cup of coffee ☕️ and some video games 🎮. I&#39;m a social person who
             values connecting with others and sharing ideas 🤝.
             <br />
             <br />
-            Don't hesitate to reach out and say hello 👋!
+            Don&#39;t hesitate to reach out and say hello 👋!
           </p>
         </div>
       </div>
