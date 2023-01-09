@@ -75,7 +75,6 @@ type Props = {
   title: string;
   icon: string | StaticImageData;
   description: string;
-  projects: number;
 };
 
 function AboutCard({ title, icon, description }: Props) {
