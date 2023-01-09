@@ -16,7 +16,9 @@ export default function NavBar() {
           <Link href="/#about">About Me.</Link>
         </li>
         <li>
-          <Link href="public/pietrocv.pdf">Resume</Link>
+          <a href="pietrocv.pdf" target="_blank" rel="noreferrer">
+            Resume
+          </a>
         </li>
       </ul>
     </nav>
