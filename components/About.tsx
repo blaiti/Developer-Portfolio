@@ -24,7 +24,7 @@ export default function About() {
         </div>
 
         <div className="flex-full about-text">
-          <h1 className="white">Hej, I am Pietro Mattei</h1>
+          <h1 className="white">Hej, I&#39;m Pietro Mattei</h1>
           <h4 className="white">
             I match top tech talent with exciting career opportunities.
           </h4>
