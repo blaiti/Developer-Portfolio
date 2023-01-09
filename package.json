@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "echo This is a static template, there is no bundler or bundling involved!",
     "start": "next start",
     "lint": "next lint"
   },
