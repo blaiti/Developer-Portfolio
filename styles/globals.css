@@ -22,10 +22,10 @@ p {
   margin: 0;
 }
 .dark-bg {
-  background-color: #25262a;
+  background-color: #222831;
 }
 .light-bg {
-  background-color: #2d2e32;
+  background-color: #393E46;
 }
 .white {
   color: #ffffff;
@@ -34,7 +34,7 @@ p {
   color: #777777;
 }
 .green {
-  color: #4dba87;
+  color: #ffc300;
 }
 .flex {
   display: flex;
@@ -49,16 +49,6 @@ p {
 }
 section {
   padding: 5rem 5rem;
-}
-button {
-  border: none;
-  border-radius: 0.2rem;
-  padding: 0.5rem 1rem;
-  color: #2d2e32;
-  font-size: 0.8rem;
-  font-weight: 600;
-  background-color: #4dba87;
-  cursor: pointer;
 }
 
 /* Header */

@@ -8,17 +8,17 @@ export default function About() {
         <div className="flex-full">
           <AboutCard
             title="Leading recruitments"
-            icon="/icons/design.svg"
+            icon="/icons/recruitment.svg"
             description="Experienced in leading global recruitment processes and finding top talent."
           />
           <AboutCard
             title="Tech talent sourcing"
-            icon="/icons/code.svg"
+            icon="/icons/search.svg"
             description="Skilled at sourcing top candidates globally."
           />
           <AboutCard
             title="Stakeholder management"
-            icon="/icons/phone.svg"
+            icon="/icons/handshake.svg"
             description="Expert in managing the expectations and needs of multiple parties in the recruitment process."
           />
         </div>
@@ -33,16 +33,15 @@ export default function About() {
             As a professional with years of experience in full-cycle
             recruitment, sourcing, stakeholder management, and employer
             branding, I have a strong track record of helping companies build
-            diverse and talented teams.
+            diverse and talented teams 🧑🏻‍💻.
             <br />
             <br />
-            In my free time, I enjoy exploring new places, staying active
-            through workouts, and relaxing with a good cup of coffee (I'm a bit
-            of a coffee addict) and some video games. I'm a social person who
-            values connecting with others and sharing ideas.
+            In my free time, I enjoy exploring new places 🌍, staying active
+            through workouts 🏋️, and relaxing with a good cup of coffee ☕️ and some video games 🎮. I'm a social person who
+            values connecting with others and sharing ideas 🤝.
             <br />
             <br />
-            Don't hesitate to reach out and say hello! 👋
+            Don't hesitate to reach out and say hello 👋!
           </p>
         </div>
       </div>
