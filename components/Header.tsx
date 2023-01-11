@@ -22,7 +22,7 @@ export default function Header() {
 
           <br />
           <br />
-          <a className="yellow" href="mailto:pietromattei@outlook.com">
+          <a className="yellow" href="mailto:me@pietromattei.com">
             Get in touch!
           </a>
         </div>
