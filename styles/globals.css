@@ -139,6 +139,11 @@ nav ul li {
   justify-content: space-evenly;
 }
 
+/* Make partner logos grayscale */
+div.flex.partners.justify-space {
+  filter: grayscale(95%);
+  }
+
 /* Footer */
 footer {
   padding: 2rem 5rem;

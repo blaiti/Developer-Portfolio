@@ -13,7 +13,7 @@ export default function NavBar() {
           <Link href="/">{"Home"}</Link>
         </li>
         <li>
-          <Link href="/#about">About Me.</Link>
+          <Link href="/#about">About Me</Link>
         </li>
         <li>
           <a href="pietrocv.pdf" target="_blank" rel="noreferrer">
