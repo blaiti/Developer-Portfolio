@@ -160,6 +160,20 @@ footer ul li {
 
 /* --------- Responsive Design --------- */
 @media (max-width: 768px) {
+  
+  ul.flex.white {
+    padding: 0;
+    margin-left: 0;
+    align-items: center;
+  }
+  
+  nav ul li {
+  list-style-type: none;
+  margin-left: 0;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+  
   .flex {
     row-gap: 2rem;
     flex-direction: column;
@@ -167,16 +181,7 @@ footer ul li {
     justify-content: center;
   }
   /* Header */
-  nav {
-    padding: 1rem 2rem;
-    flex-direction: row !important;
-    justify-content: space-between !important;
-  }
-  nav ul,
-  nav ul li,
-  .active {
-    display: none;
-  }
+
   .header {
     padding: 2rem 2rem 0rem 2rem;
   }
@@ -200,4 +205,5 @@ footer ul li {
   footer ul li {
     margin-left: 0;
   }
+
 }
