@@ -81,7 +81,7 @@ function AboutCard({ title, icon, description }: Props) {
   return (
     <div className="light-bg about-card">
       <div className="flex justify-space">
-        <h3 className="green">{title}</h3>
+        <h3 className="yellow">{title}</h3>
         <Image src={icon} width={28} height={28} alt={title} />
       </div>
       <p className="white">{description}</p>

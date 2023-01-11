@@ -9,7 +9,7 @@ export default function NavBar() {
       </div>
 
       <ul className="flex white">
-        <li className="green">
+        <li className="yellow">
           <Link href="/">{"Home"}</Link>
         </li>
         <li>
