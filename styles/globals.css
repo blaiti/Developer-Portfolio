@@ -140,10 +140,30 @@ nav ul li {
 }
 
 /* Make partner logos grayscale */
-div.flex.partners.justify-space {
+.neo4j {
   filter: grayscale(95%);
   }
-
+  
+  .ikea {
+  filter: grayscale(95%);
+  }
+  
+  .randstad {
+  filter: grayscale(95%);
+  }
+  
+  /*give color when hovering*/
+  .neo4j:hover {
+  filter: grayscale(0);
+  }
+  
+  .ikea:hover {
+  filter: grayscale(0);
+  }
+  
+  .randstad:hover {
+  filter: grayscale(0);
+  }
 /* Footer */
 footer {
   padding: 2rem 5rem;
