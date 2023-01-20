@@ -52,12 +52,14 @@ export default function About() {
           height={45}
           width={180}
           alt="Neo4j"
+          className="neo4j"
         />
         <Image
           src="/images/partners/IKEA.svg"
           height={45}
           width={180}
           alt="IKEA"
+          className="ikea"
         />
 
         <Image
@@ -65,6 +67,7 @@ export default function About() {
           height={45}
           width={180}
           alt="Randstad"
+          className="randstad"
         />
       </div>
     </section>
