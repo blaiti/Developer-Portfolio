@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600;700&display=swap");
 
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Roboto Mono';
+  font-family: "Roboto Mono";
 }
 * {
   box-sizing: border-box;
@@ -12,23 +12,29 @@ a {
   color: inherit;
   text-decoration: none;
 }
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
 }
 .dark-bg {
-  background-color: #25262A;
+  background-color: #222831;
 }
 .light-bg {
-  background-color: #2D2E32;
+  background-color: #393E46;
 }
 .white {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .gray {
-  color: #777777;
+  color: #bfc0c0;
 }
-.green {
-  color: #4dba87;
+.yellow {
+  color: #ffc300;
 }
 .flex {
   display: flex;
@@ -43,16 +49,6 @@ h1, h2, h3, h4, h5, h6, p {
 }
 section {
   padding: 5rem 5rem;
-}
-button {
-  border: none;
-  border-radius: 0.2rem;
-  padding: 0.5rem 1rem;
-  color: #2D2E32;
-  font-size: 0.8rem;
-  font-weight: 600;
-  background-color: #4dba87;
-  cursor: pointer;
 }
 
 /* Header */
@@ -139,8 +135,35 @@ nav ul li {
 }
 .partners {
   padding-top: 5rem;
+  display: flex;
+  justify-content: space-evenly;
 }
 
+/* Make partner logos grayscale */
+.neo4j {
+  filter: grayscale(95%);
+  }
+  
+  .ikea {
+  filter: grayscale(95%);
+  }
+  
+  .randstad {
+  filter: grayscale(95%);
+  }
+  
+  /*give color when hovering*/
+  .neo4j:hover {
+  filter: grayscale(0);
+  }
+  
+  .ikea:hover {
+  filter: grayscale(0);
+  }
+  
+  .randstad:hover {
+  filter: grayscale(0);
+  }
 /* Footer */
 footer {
   padding: 2rem 5rem;
@@ -157,6 +180,20 @@ footer ul li {
 
 /* --------- Responsive Design --------- */
 @media (max-width: 768px) {
+  
+  ul.flex.white {
+    padding: 0;
+    margin-left: 0;
+    align-items: center;
+  }
+  
+  nav ul li {
+  list-style-type: none;
+  margin-left: 0;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+  
   .flex {
     row-gap: 2rem;
     flex-direction: column;
@@ -164,14 +201,7 @@ footer ul li {
     justify-content: center;
   }
   /* Header */
-  nav {
-    padding: 1rem 2rem;
-    flex-direction: row !important;
-    justify-content: space-between !important;
-  }
-  nav ul, nav ul li, .active {
-    display: none;
-  }
+
   .header {
     padding: 2rem 2rem 0rem 2rem;
   }
@@ -186,6 +216,7 @@ footer ul li {
     flex-direction: row !important;
     justify-content: space-between !important;
   }
+
   /* Footer */
   footer ul {
     column-gap: 1rem;
@@ -194,4 +225,5 @@ footer ul li {
   footer ul li {
     margin-left: 0;
   }
+
 }
